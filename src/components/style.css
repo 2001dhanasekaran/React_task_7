@@ -1,0 +1,34 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, rgb(230, 57, 51), rgb(14, 197, 14));
+}
+.main{
+    text-align: center;
+    background-color: antiquewhite;
+    height: 320px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.747), 0 6px 20px rgba(0, 0, 0, 0.747);
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input:hover{
+    box-shadow: 0 0 15px rgb(67, 123, 187);
+}
+button{
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
